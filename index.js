@@ -1,4 +1,14 @@
 //funções
+
+// const f = () => {}
+// const umArgumento = (n) => {}
+// const umArgumemento = n => {}
+const soUmaLinha = () => console.log("oi")
+
+const teste1 = (a,b) => {return a+b}
+
+const teste2 = (a,b) => a+b
+
 //void m(){} se fosse Java
 function hello(){
     console.log('oi')
@@ -8,6 +18,12 @@ function hello(){
     console.log('oi, ' + nome)
   }
   hello('Rodrigo')
+
+  const triplo = function (n=5){
+    return 3 * n
+  }
+  console.log(triplo())
+  console.log(triplo(10))
   
   // //declaração
   // v1 = []
